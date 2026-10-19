@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+body {
+    background-color: #eceef1;
+
+}
+
+/*  */
+.container {
+    padding: 20px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+/* Start Header */
+header {
+    background-color: #20386b;
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+    border-radius: 20px;
+}
+
+header p {
+    color: #739fff;
+    margin-bottom: 20px;
+}
+
+header .anchor {
+    padding: 20px;
+}
+
+header .anchor a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #264d9f;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+/* End Header */
+
+/* Start About  */
+.about {
+    width: 60%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.title {
+    color: #20386b;
+}
+
+.about .img {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.about .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.text {
+    color: #739fff;
+    font-weight: bold;
+}
+
+.content a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #20386b;
+    color: white;
+}
+
+
+
+.about .content {
+    float: left;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+
+.about .w-70 {
+    width: 70%;
+}
+
+/* End About  */
+
+/* Start skills */
+.skills {
+    width: 60%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.skills .cards {
+    padding: 10px;
+}
+
+.skills .cards .card {
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+
+.skills .cards .card .content-card {
+    background-color: #eceef1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skills .card h3 {
+    color: #739fff;
+    margin: 0;
+}
+
+
+
+
+/* End skills */
+
+/* Start Experience */
+.experience {
+    width: 60%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.experience .card-2 {
+    background-color: #eceef1;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #2953ad;
+    border-radius: 10px;
+}
+
+.experience .card-2 .img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.experience .card-2 .img img {
+    width: 100%;
+    height: 100%;
+    /* margin: auto; */
+}
+
+.info {
+    display: inline-block;
+}
+
+.info .style {
+    color: #739fff;
+}
+
+/* End Experience */
+
+/* Start Contact */
+.contact {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #20386b;
+    border-radius: 20px;
+    color: white;
+}
+
+.contact .anchor-2 {
+    padding: 15px;
+}
+
+.contact .anchor-2 a {
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #264d9f;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* End Contact */
+
+/* Start Footer */
+footer {
+    width: 60%;
+    padding: 20px 0;
+    margin: 20px auto;
+    background-color: #051436;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer span {
+    color: #739fff;
+}
+
+/* End Footer */
